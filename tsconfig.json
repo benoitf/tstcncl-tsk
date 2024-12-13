@@ -1,13 +1,9 @@
 {
   "compilerOptions": {
-    "strict":true,
+    "strict": true,
     "sourceMap": true,
     "outDir": "dist",
-    "types": [
-      "node",
-    ],
+    "types": ["node"]
   },
-  "include": [
-    "src",
-  ],
+  "include": ["src"]
 }

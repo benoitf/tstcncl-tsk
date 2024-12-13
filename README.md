@@ -15,11 +15,13 @@ With this template, on activating a "Hello World!" dialog will appear.
 To build and develop the extension, follow these steps:
 
 1. Clone the project or your fork:
+
 ```sh
 $ git clone https://github.com/containers/podman-desktop-extension-minimal-template/
 ```
 
 2. Run `npm install` to install all relevant packages:
+
 ```sh
 $ npm install
 ```
@@ -31,6 +33,7 @@ Creating a build will generate all required files for Podman Desktop to load the
 ```sh
 $ npm run build
 ```
+
 Optionally, you can also use `npm run watch` to continuously rebuild after each change, without needing to re-run `npm run build`:
 
 ```sh
